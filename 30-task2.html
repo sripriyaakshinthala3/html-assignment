@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>
+        My feedback form
+    </title>
+</head>
+
+<body>
+
+    <h2>Task1</h2>
+    <h1>My feedback form</h1>
+    <ul input style="list-style: disc;">
+        <li>
+            Name:<input type="text">
+        </li><br>
+        <li>
+            Email:<input type="email">
+        </li><br>
+        <li>Password:<input type="password">
+        </li><br>
+    </ul>
+    <ul input style="list-style: disc;">
+        <li>
+            Please Check all the emotions that apply to you:
+        </li>
+        <ul style="list-style-type: square;">
+            <li><input type="checkbox" name="emotion" value="angry"> Angry</li>
+            <li><input type="checkbox" name="emotion" value="sad"> Sad</li>
+            <li><input type="checkbox" name="emotion" value="happy"> Happy</li>
+            <li><input type="checkbox" name="emotion" value="ambivalent"> Ambivalent</li>
+        </ul>
+
+    </ul>
+    <ul input style="list-style: disc;">
+        <li>
+            How satisfied were you with our service?
+        </li>
+        <ul style="list-style-type:disc;">
+            <li><input type="radio" name="satisfaction" value="very satisfied"> Very satisfied</li>
+            <li><input type="radio" name="satisfaction" value="satisfied"> Satisfied</li>
+            <li><input type="radio" name="satisfaction" value="neutral"> Didn't care</li>
+            <li><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</li>
+            <li><input type="radio" name="satisfaction" value="very dissatisfied"> Very dissatisfied</li>
+
+        </ul>
+
+    </ul>
+    <ul input style="list-style: disc;">
+        <li>
+            Further comments:
+            <textarea name="comments" rows="4" cols="40" style="resize: none;"></textarea>
+        </li>
+
+    </ul>
+    <ul input type="list-style:disc">
+        <li>
+            Bio photo: <input type="file" name="photo">
+
+        </li><br>
+        <li>
+            Location visited:
+            <select name="location">
+                <option value="">Select location</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+        </li>
+    </ul>
+
+
+    <h2> Task-2</h2>
+    <h1>Application Form</h1>
+    <form>
+        <table>
+
+            <tr>
+                <td><label for="First Name">First Name:</label>
+                    <input type="text" id="name" name="First name" maxlength="20">
+                </td>
+                <td><label for="Last Name">Last Name:</label>
+                    <input type="text" id="last name" name="name" maxlength="20">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="DOB">Date Of Birth:</label>
+                    <input type="date" id="DOB" name="DOB">
+                </td>
+                <td>
+                    <label for="Age">Age:</label>
+                    <input type="text" id="Age" name="Age" maxlength="3">
+                </td>
+
+
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender:</label>
+
+                    <input type="radio" id="female" name="Gender" value="female">
+                    <label for="female">female</label>
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label><br><br>
+
+                </td>
+                <td>
+                    <label for="Email Address">Email Address:</label>
+                    <input type="email" id="email address" name="email" maxlength="20" minlength="10"><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Position Available:</td>
+                <td>
+                    <ul>
+                        <li>Junior Developer</li>
+                        <li>Mid-Level Developer</li>
+                        <li>Senior Developer</li>
+                    </ul>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Programming Languages </td>
+                <td>
+                    <ul>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label>
+                    <input type="password" id="password" name="Confirm Passwor" maxlength="20">
+                </td>
+                <td><label for="Confirm Password">Confirm Password:</label>
+                    <input type="password" id="Confirm Password" name="Confirm Password" maxlength="20">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="text-align:center; margin-top: 10px; margin-left:50%;">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2>Task-3</h2>
+    <h1>Contact Us Today!</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="First Name">First Name:</label>
+                    <input type="text" id="name" name="First name" maxlength="20">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="Last Name">Last Name:</label>
+                    <input type="text" id="last name" name="name" maxlength="20">
+                </td>
+
+            </tr><br>
+            <tr>
+                <td><label for="E-mail">E-mail:</label>
+                    <input type="email" id="E-mail" name="email" maxlength="14" minlength="10">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="phone no">phone no:</label>
+                    <input type="tel" id="phone no" name="phone no" maxlength="10" minlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label>
+                    <input type="Address" id="Address" name="Address" maxlength="50" minlength="20">
+                </td>
+            </tr>
+            <tr>
+                
+                <td><label for="City">City:</label>
+                    <input type="City" id="City" name="email" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="state">State:</label>
+
+                    <select name="State">
+                        <option value="">please Select your state</option>
+                        <option value="Telangana">Hyderabad</option>
+                        <option value="Andhra pradesh">Chennai</option>
+                        <option value="Delhi">Delhi</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                
+                <td><label for="Zipcode">Zip Code:</label>
+                    <input type="Zip code" id="zipcode" name="zipcode" maxlength="7">
+                </td>
+
+            </tr>
+            <tr>
+                
+                <td><label for="Website or Domain name">Website or Domain name:</label>
+                    <input type="text" id="Website or Domain name" name=" name" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Do you have Hosting">Do you have Hosting?:</label>
+
+                    <input type="radio" id="Yes" name="Do you have Hosting" value="Yes">
+                    <label for="Do you have Hosting">Yes</label>
+                    <input type="radio" id="No" name="Do you have Hosting" value="No">
+                    <label for="Do you have Hosting">No</label><br><br>
+
+                </td>
+            </tr>
+
+        </table>
+            
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
