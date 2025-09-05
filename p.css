@@ -1,0 +1,16 @@
+h1 ,h3 {
+    color: brown;
+}
+
+p,strong{
+    color:navy;
+}
+a {
+    color: peru;
+}
+.table{
+    color: navy;
+}
+#unique{
+    color: navy;
+}

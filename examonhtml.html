@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>A mini Test on HTML</title>
+    <link rel="stylesheet" href="p.css">
 
 </head>
 
@@ -14,10 +15,10 @@
         <p>Showcasing HTML Skills Using Table</p>
 
         <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#about">About |</a>
+            <a href="#skills">Skills |</a>
+            <a href="#projects">Projects |</a>
+            <a href="#contact">Contact |</a>
         </nav>
         <hr>
     </header>
@@ -27,7 +28,7 @@
 
         <tr>
             <td colspan="2" id="about">
-                <h2>About Me</h2>
+                <h3>About Me</h3>
                 <p>Hi, I'm <strong>Sripriya Gupta</strong>, a passionate learner with a background in Computer Science
                     Engineering.
                     I enjoy exploring coding, web development, and creative design, and I'm always eager to learn new
@@ -42,16 +43,16 @@
 
             <td id="skills" width="50%">
                 <h3>Skills</h3>
-                <ul>
+                <ul id="unique">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>Python</li>
                     <li>SQL</li>
                 </ul>
-                <h4>Skill Levels</h4>
-                <table border="1" cellspacing="0" cellpadding="5" align="center">
-                    <tr>
+                <h3>Skill Levels</h3>
+                <table class="table" border="1" cellspacing="0" cellpadding="5" align="center">
+                    <tr style="color: brown;">
                         <th>Skill</th>
                         <th>Level</th>
                     </tr>
