@@ -1,0 +1,22 @@
+.first-container,.second-container{
+    width: 900px;
+    /* height: 700px; */
+    margin: 5px;
+    /* border: 2px solid; */
+}
+.item-1,.item-2,.item-3,.item-4{
+    /* height:675px; */
+    width: 200px;
+    /* border:2px solid; */
+    margin: 5px;
+    height:490px;
+    display: inline-block;
+    
+}
+img{
+    width:100%;
+}
+h3,p{
+    text-align: center;
+    padding: 5px;
+}
