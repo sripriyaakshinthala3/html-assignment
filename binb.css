@@ -1,0 +1,31 @@
+.Grand-parent-container{
+    width:500px;
+    height:500px;
+    border:2px solid;
+    position: absolute;
+    top: 80px;
+    left:40%
+}
+.Parent-container{
+    width:300px;
+    height:300px;
+    border:2px solid green;
+    position: absolute;
+    top: 20%;
+    left:20%;
+    
+}
+.Child-container{
+    width:140px;
+    height:100px;
+    border:2px solid red;
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
+p{
+    text-align: center;
+    
+}
+
+

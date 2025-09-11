@@ -1,0 +1,60 @@
+
+.item {
+    display: inline-block;
+    width:360px;
+    height:150px;
+    margin:5px;
+   
+
+}
+img{
+    width:100%;
+    align-items: center;
+    height: auto;
+}
+ #architecture {
+    position: relative; 
+    width: 100%; 
+    margin: 20px auto; 
+    display: inline-block;
+}
+
+.content2{
+    position: absolute; 
+    bottom:1%;
+    left:100% ; 
+    color:white; 
+    
+    
+}   
+
+.content1 {
+    position: absolute; 
+    bottom:45%;
+    left:50% ; 
+    color: whitesmoke;
+    
+  
+}
+
+
+.navbar a {
+        color: rgb(111, 59, 59); 
+        text-decoration: none; 
+        padding: 14px ;
+        display: inline-block;
+        }
+
+.navbar .left {
+            float: left;
+        }
+
+        .navbar .right {
+            float: right; 
+        }
+
+
+
+
+
+
