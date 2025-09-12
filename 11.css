@@ -1,57 +1,86 @@
 
-.item {
-    display: inline-block;
-    width:360px;
-    height:150px;
-    margin:5px;
-   
 
-}
-img{
-    width:100%;
-    align-items: center;
-    height: auto;
-}
- #architecture {
+#architecture {
     position: relative; 
     width: 100%; 
-    margin: 20px auto; 
+}
+#architecture img{
+    width:100%;
+    height :auto;
+    display:block;
+
+}
+
+.content1   {
+    position: absolute; 
+    top:50%;
+    left:50%;
+    width:100px;
+    height:80px;
+    margin-left: -175px;
+    margin-top: -40px;
+    text-align: center;
+    white-space: nowrap;
+}
+.content1 .word1{
+    background: rgba(0,0,0,0.7);
+    padding:8px 14px;
+ 
+    margin:0;
+}
+.content1 .word2 {
+    padding: 8px 14px;
+    margin: 0;
+}
+.content1 h1{
+    display: inline-block;
+    margin:0;
+    color: white;
+   
+}
+
+.item{
+    position: relative;
+    display: inline-block;
+    width:360px;
+    margin:5px;
+    vertical-align: top;
+}
+.item img{
+    width:100%;
+    height:auto;
+    display:block
+}
+.img-text{
+    position: absolute;
+    top:0;
+    left:0;
+    background:black ;
+    color:white;
+    font-size:20px;
+    font-style: italic;
+    padding:10px;
+}
+
+.navbar a {
+    color: rgb(111, 59, 59); 
+    text-decoration: none; 
+    padding: 14px ;
     display: inline-block;
 }
 
-.content2{
-    position: absolute; 
-    bottom:1%;
-    left:100% ; 
-    color:white; 
-    
-    
-}   
-
-.content1 {
-    position: absolute; 
-    bottom:45%;
-    left:50% ; 
-    color: whitesmoke;
-    
-  
+.navbar .left {
+    float: left;
 }
 
-
-.navbar a {
-        color: rgb(111, 59, 59); 
-        text-decoration: none; 
-        padding: 14px ;
-        display: inline-block;
-        }
-
-.navbar .left {
-            float: left;
-        }
-
-        .navbar .right {
-            float: right; 
-        }
+.navbar .right {
+    float: right; 
+}
+.navbar {
+    overflow: hidden;
+    height:50px;
+    padding:8px;
+}
 
 
 
