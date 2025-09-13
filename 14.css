@@ -1,0 +1,41 @@
+.main-container{
+    width: 1120px;
+    height: 635px;
+    border: 2px solid;
+    margin : 40px 90px 40px 180px;
+    background-color:palevioletred;
+    
+}
+.first-image-container,.second-image-container{
+    width: 1100px;
+    height: 300px;
+    border: 2px solid;
+    margin: 10px;
+    background-color:peachpuff;
+}
+img{
+    position:relative;
+    width:100%;
+    height:100%;
+    
+}
+.image1, .image2, .image3,.image4,.image5,.image6,.image7,.image8{
+    border-radius:100px;
+    overflow: hidden;
+    width:180px;
+    height:180px;
+    display:inline-block;
+    position:relative;
+    margin:40px;
+    border:2px solid;
+}
+p{
+    color:aliceblue;
+    width:80px ;
+}
+.img-text1,.img-text2,.img-text3,.img-text4,.img-text5,.img-text6,.img-text7,.img-text8{
+    position:absolute;
+    right:0px;
+    top:20px
+}
+
