@@ -1,0 +1,12 @@
+ .nav-bar{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    width:auto;
+    padding:16px;
+    align-items: center;
+    
+   
+}
