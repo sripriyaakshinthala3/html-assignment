@@ -1,96 +1,46 @@
-
-/* .second{
-    width:200;
-    height:100;
-    background-color: brown;
-    margin:5px;
-    
-}
-span{
-    width:200px;
-    height:200px;
-    display:inline-block;
-    margin:5px;
-    background-color: aquamarine;
-    
-}
-.first{
-    width:200px;
-    height:200px;
-    display:inline-block;
-    margin:5px;
-    background-color: antiquewhite;
-} */
-/* a:link{
-    color:yellow ;
-}
-a:hover{
-    color:aqua
-}
-a:active{
-    color:red;
-}
-a:visited{
-    color:greenyellow
-} */
-/* p:hover{
-    color: blue;
-    border: 2px solid;
-    border-radius: 20px;
-    padding:20px;
-
-}
-h1{
-    color:red;
-    cursor: pointer;
-}
-h1:hover+p{
-    display:block
-
-}     */
-     /* sudo class */
-/* #check:checked+img{
+#check:checked+img{
     display: block;
-}     
+
+
+}
 img{
-    display:none
-
-}   
+    /* display: none; */
+}
 label{
-    background-color: peachpuff;
-    color: palevioletred;
+    background-color: black;
+    color: white;
+    display: inline-block;
     padding:10px;
-    border-radius:10px;
-}  
-#check{
-    display:none;
-} */
-.container{
-    width:400px;
-    height:250;
-    border:2px solid;
-} 
-.container>.img{
-    width:100%;
-    height:100%;
-    /* display:none; */
-
+    margin: 5px;
+    border-radius:20px;
 }
 #a:checked~.container>.img-1{
-    display:inline-block
+    display: inline-block;
+
 }
 #b:checked~.container>.img-2{
-    display:inline-block
+    display: inline-block;
 }
 #c:checked~.container>.img-3{
-    display:inline-block
+    display: inline-block;
 }
 #d:checked~.container>.img-4{
-    display:inline-block
+    display: inline-block;
 }
 #e:checked~.container>.img-5{
-    display:inline-block
+    display: inline-block;
 }
-/* :root{
+:root{
     background-color: black;
-} */
+}
+
+.container{
+    width:300px;
+    height:200px;
+    border:2px solid;
+}
+.container>.img{
+    display:none;
+    width:100%;
+    height:100%;
+}

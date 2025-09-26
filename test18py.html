@@ -1,0 +1,28 @@
+Hiding implementaion from 
+obstract class ->to enforce structure
+ABC->abstract base class
+from abc import Abc
+from abc import ABC, abstractmethod
+
+
+class ATM(ABC):
+        @abstractmethod
+        def withdraw-money(self,amount):
+           pass
+
+        @abstractmethod
+        def withdraw-money(self,amount):
+           pass
+
+        def withdraw-money(self,amount):
+           print("this is an atm")
+atm1 = ATM()
+print(atm1) -> throw error
+
+obstract class->
+which does not have complete  implementation becoz 
+it has methods that also doesn't have implementations
+therefore you cannot create an obj for abstract class
+if any class inherit from abstract class then it should implement abstract class methods 
+
+magic methods /dunder methods:- to use built-in methods of python to work it on our created class objects we use dunder methods
