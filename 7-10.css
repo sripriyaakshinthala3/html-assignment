@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+
+}
+
+.new-visitors,.new-users,.new-visitors,.bounce-rate{
+    width:98%;
+    background-color:lightgrey;
+    margin: 15px 10px 15px 10px;
+}
+.percent-of-new-visitors{
+    width:25%;
+    background-color:green;
+    text-align: center;
+    padding:8px;
+}
+.percent-of-new-users{
+    width:50%;
+    background-color:orange;
+    text-align: center;
+    padding:8px;
+   
+}
+.percent-bounce-rate{
+    width:75%;
+    background-color:orangered;
+    text-align: center;
+    padding:8px;
+   
+}
+p{
+    margin-left:15px;
+}
