@@ -9,29 +9,34 @@ body,html{
 
 }
 
-.new-visitors,.new-users,.new-visitors,.bounce-rate{
-    width:98%;
+.new-visitors,.new-users,.bounce-rate{
+    width:50%;
+    height:30px;
     background-color:lightgrey;
     margin: 15px 10px 15px 10px;
+    overflow: hidden;
 }
-.percent-of-new-visitors{
+.new-visitors>.percent-of-new-visitors{
     width:25%;
     background-color:green;
     text-align: center;
     padding:8px;
+    height:100px;
 }
-.percent-of-new-users{
+.new-users>.percent-of-new-users{
     width:50%;
     background-color:orange;
     text-align: center;
     padding:8px;
+    height:100px;
    
 }
-.percent-bounce-rate{
+.bounce-rate>.percent-bounce-rate{
     width:75%;
     background-color:orangered;
     text-align: center;
     padding:8px;
+    height:100px;
    
 }
 p{
