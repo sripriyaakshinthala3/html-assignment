@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Inconsolata";
+}
+.nav-container{
+    background-color: black;
+    color: white;
+    padding:8px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width:100%;
+    font-size:1.2rem;
+    z-index:+1;
+}
+.nav-container>.nav-item{
+    width:400px;
+    text-align: center;
+    padding:4px;
+    transition:0.7s ease;
+}
+.nav-container>.nav-item:hover{
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+}
+.bg-container{
+    height:540px;
+    background-image:url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    filter: grayscale(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.bg-text-container1{
+   color:whitesmoke;
+   font-size:6rem;
+}
+.bg-text-container2{
+    position: absolute;
+    left:20px;
+    bottom:10px;
+    padding:5px;
+    background-color: black;
+    color:white;
+}
+.bg-text-container3{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+    color:white;
+    line-height:2px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.main{
+    width:50%;
+    border:2px solid;
+    height:1200px;
+    
+}
+.main-container-para{
+    display:flex;
+    justify-content: center;
+}
+.main-container-para>p{
+    color:white;
+    background-color:black;
+    letter-spacing:5px;
+    margin:50px 0px;
+    font-size:1.2rem;
+    padding:8px;
+   
+}
+.main-container-para1>p{
+    line-height:20px;
+    text-align: justify;
+    margin:20px 0px;
+   
+}
+.main-container-para2>p{
+    line-height:20px;
+    text-align: justify;
+    margin:20px 0px;
+}
+.owner-container-para3{
+    border-left-color: rgba(0, 0, 0, 0.199);
+    border-left-width:5px;
+    border-left-style:solid;
+    padding:30px;
+    background-color:whitesmoke;
+    margin:0px 0px 20px;
+}
+.img-container>img{
+    width:100%;
+    filter:grayscale(50%);
+    margin:20px 0px;
+}
+
