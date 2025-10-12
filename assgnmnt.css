@@ -1,0 +1,175 @@
+/* img{
+    height:400px;
+    width:400px;
+    border-radius:50%; 
+    display: block;
+
+}
+p{
+    color: azure;
+    background-color: black;
+    border-radius:10px;
+    height:150px;
+    width:400px ;
+    padding:5px ;
+    display: none;
+    text-align: center;
+}
+.img-container:hover p{
+    display: block;
+
+}
+.img-container{
+    width:400px;
+    position: relative;
+} */
+/* div{
+    border:4px solid;
+    border-color:brown; 
+    background-color:yellow; 
+    margin:10px;
+    display:inline-block;
+    height:200px;
+    width:200px;
+    padding-top:65px;
+    padding-left:65px;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgrey ;
+} */
+/*static position default  */
+/* div{
+   border:1px solid black;
+   padding:10px;
+   margin:10px;
+} */
+
+/* relative position to normal position */
+/* div{
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+} 
+.relative{
+    position:relative;
+    left:50px;
+    top:20px;   
+} */
+
+/*absolute position  */
+/* .container{
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    position:relative;
+    margin:20px auto;
+} */
+/* .absolute{
+    position: absolute;
+    top:50px;
+    left:50px;
+    padding:10px;
+    background-color:lightpink ;
+
+} */
+ 
+/* fixed */
+/* .fixed{
+    border:2px solid black;
+    position: fixed;
+    right:10px; 
+    top:10px;
+    padding:20px;
+    background-color: greenyellow;
+}
+.content{
+    height:1200px;
+    padding:10px;
+} */
+/* *{
+    margin:0px;
+
+} */
+
+ /* sticky */
+/* .sticky{
+    background-color:lightseagreen ;
+    position:sticky;
+    padding:10px;
+    top:0px;
+} 
+.page{
+    height:1000px;
+} */
+
+/*  <!-- Build a sticky navigation bar at the top.--> */
+/* #navbar{
+    top:0px;
+    position: sticky;
+    background-color: #333;
+    overflow: hidden;
+}
+#navbar a{
+    color: #f2f2f2;
+    display: block;
+    float:left;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+body,html{
+    height:1200px;
+    
+} */
+ /*Style text with properties  */
+/* p{
+   text-decoration:none; 
+   text-align: center;
+   letter-spacing:2px ;
+   line-height:3;
+}  */
+  /*Center text vertically and horizontally inside a box.  */
+/* .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+} */
+/* .flex-container{
+    display:flex;
+    width:80%;
+    height:200px;
+    border:1px solid black;
+    gap:10px;
+    margin:10px 0px 0px;   
+ 
+}
+.child{
+    padding:1px;
+    height:150px;
+    width:250px;
+    border:1px solid black;
+    margin:20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+} */
+
+
+
+
+
+
+
+
+
+
+

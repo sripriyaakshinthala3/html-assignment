@@ -2,7 +2,10 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family:"Inconsolata";
+    font-family:"Inconsolata",sans-serif;
+}
+body,html{
+    height:100%;
 }
 .nav-container{
     background-color: black;
@@ -65,9 +68,9 @@
    
 }
 .main{
-    width:50%;
-    border:2px solid;
-    height:1200px;
+    width:46%;
+    /* border:2px solid; */
+  
     
 }
 .main-container-para{
@@ -80,7 +83,7 @@
     letter-spacing:5px;
     margin:50px 0px;
     font-size:1.2rem;
-    padding:8px;
+    padding:3px;
    
 }
 .main-container-para1>p{
@@ -99,7 +102,6 @@
     border-left-width:5px;
     border-left-style:solid;
     padding:30px;
-    background-color:whitesmoke;
     margin:0px 0px 20px;
 }
 .img-container>img{
@@ -107,4 +109,114 @@
     filter:grayscale(50%);
     margin:20px 0px;
 }
+.open-time{
+    margin-bottom:20px;
+}
+.address{
+    margin-bottom:20px;
+}
+
+.label-container{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.label-container>label{
+    padding:10px;
+    width:350px;
+    display: inline-block;
+    text-align: center;
+   
+}
+.eat-container>div{
+    padding:20px;
+    line-height:40px;
+}
+.drink-container>div{
+    padding:20px;
+    line-height:40px;
+   
+}
+.eat-container{
+    padding:10px;
+    display:none;
+}
+.drink-container{
+    padding:10px;
+    display:none;
+}
+#eat:checked~.eat-container{
+    display: block;
+}
+#eat{
+    display:none;
+}
+#drink:checked~.drink-container{
+    display: block;
+}
+#drink{
+    display:none;
+}
+.menu-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.label-container>label:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.img-container-1>img {
+    width:100%;
+    filter:grayscale(50%);
+}
+.img-container-1{
+    margin-top:30px;
+}
+.img-container-2>img {
+    width:100%;
+    filter:grayscale(50%);
+}
+.img-container-2{
+    margin-top:30px;
+}
+span{
+    background-color: black;
+    padding:10px;
+    color:white;
+}
+.fyi-para{
+    margin-top:20px;
+    margin-bottom:30px;
+    line-height:30px;
+    text-align: justify;
+}
+.reserve-para{
+    margin-bottom:20px;
+}
+.form-container>input{
+    width:100%;
+    padding:20px;
+    margin-bottom:15px;
+}
+.form-container>div>input{
+    padding:15px;
+    background-color: black;
+    color:white;
+    letter-spacing:3px;
+}
+.form-container>div>input:hover{
+    color:black;
+    background-color:lightgrey;
+   
+}
+.footer{
+    margin-top:40px;
+    line-height:200px;
+    text-align: center;
+}
+.footer>p>a:hover{
+    color:green;  
+}
+
+
 
